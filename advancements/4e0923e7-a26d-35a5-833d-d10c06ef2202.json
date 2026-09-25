@@ -10,6 +10,7 @@
       "minecraft:sunflower_plains": "2026-09-16 16:02:34 +0300",
       "minecraft:beach": "2026-09-16 15:37:22 +0300",
       "minecraft:river": "2026-09-16 15:40:06 +0300",
+      "minecraft:lukewarm_ocean": "2026-09-24 12:48:51 +0300",
       "minecraft:ocean": "2026-09-16 15:41:29 +0300",
       "minecraft:flower_forest": "2026-09-16 15:36:59 +0300",
       "minecraft:savanna": "2026-09-16 17:06:37 +0300"
@@ -568,12 +569,15 @@
       "cooked_mutton": "2026-09-16 16:01:38 +0300",
       "cooked_beef": "2026-09-16 16:46:07 +0300",
       "baked_potato": "2026-09-22 12:28:20 +0300",
+      "beef": "2026-09-24 18:05:44 +0300",
       "porkchop": "2026-09-18 16:11:55 +0300",
       "mutton": "2026-09-16 15:46:24 +0300",
       "golden_apple": "2026-09-16 17:01:45 +0300",
       "bread": "2026-09-18 16:58:33 +0300",
       "rotten_flesh": "2026-09-16 16:05:06 +0300",
       "glow_berries": "2026-09-16 17:00:40 +0300",
+      "salmon": "2026-09-24 09:45:16 +0300",
+      "golden_carrot": "2026-09-24 12:56:37 +0300",
       "cooked_chicken": "2026-09-16 17:58:16 +0300",
       "cooked_salmon": "2026-09-16 15:51:14 +0300"
     },
@@ -2674,7 +2678,10 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cat": "2026-09-22 12:18:16 +0300"
+      "minecraft:cat": "2026-09-22 12:18:16 +0300",
+      "minecraft:pig": "2026-09-24 10:12:52 +0300",
+      "minecraft:sheep": "2026-09-24 10:12:44 +0300",
+      "minecraft:cow": "2026-09-24 10:12:32 +0300"
     },
     "done": false
   },
@@ -2990,12 +2997,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/glow_item_frame": {
-    "criteria": {
-      "has_glow_ink_sac": "2026-09-23 18:15:50 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/slime_block": {
     "criteria": {
       "has_slime_ball": "2026-09-23 18:08:47 +0300"
@@ -3005,6 +3006,72 @@
   "minecraft:recipes/tools/lead": {
     "criteria": {
       "has_slime_ball": "2026-09-23 18:08:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2026-09-23 18:15:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2026-09-24 10:10:06 +0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2026-09-24 10:10:39 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2026-09-24 12:55:54 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2026-09-24 13:04:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2026-09-24 13:04:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2026-09-24 14:43:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2026-09-24 14:43:02 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2026-09-24 14:59:40 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2026-09-24 15:02:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2026-09-24 17:57:39 +0300"
     },
     "done": true
   },
