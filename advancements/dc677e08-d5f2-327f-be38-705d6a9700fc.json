@@ -130,6 +130,7 @@
       "baked_potato": "2026-09-25 16:19:49 +0300",
       "porkchop": "2026-09-17 08:56:55 +0300",
       "mutton": "2026-09-17 08:57:38 +0300",
+      "bread": "2026-09-30 16:18:42 +0300",
       "rotten_flesh": "2026-09-17 18:58:37 +0300"
     },
     "done": false
@@ -1558,6 +1559,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:spider": "2026-09-30 16:13:49 +0300",
       "minecraft:zombified_piglin": "2026-09-24 10:23:44 +0300",
       "minecraft:zombie": "2026-09-17 18:56:37 +0300",
       "minecraft:drowned": "2026-09-23 17:35:22 +0300"
@@ -2668,18 +2670,6 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_crying_obsidian": {
-    "criteria": {
-      "crying_obsidian": "2026-09-25 16:20:47 +0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/respawn_anchor": {
-    "criteria": {
-      "has_obsidian": "2026-09-25 16:20:47 +0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_the_recipe": "2026-09-25 16:19:44 +0300"
@@ -2697,6 +2687,54 @@
       "has_iron_block": "2026-09-25 16:19:53 +0300"
     },
     "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2026-09-25 16:20:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2026-09-25 16:20:47 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2026-09-29 18:15:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2026-09-29 18:24:28 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2026-09-30 15:40:27 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2026-09-30 16:02:07 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2026-09-30 16:02:07 +0300"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2026-09-30 16:02:08 +0300"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }

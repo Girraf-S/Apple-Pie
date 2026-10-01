@@ -579,6 +579,7 @@
       "golden_apple": "2026-09-16 17:01:45 +0300",
       "bread": "2026-09-18 16:58:33 +0300",
       "rotten_flesh": "2026-09-16 16:05:06 +0300",
+      "suspicious_stew": "2026-09-30 12:39:41 +0300",
       "glow_berries": "2026-09-16 17:00:40 +0300",
       "salmon": "2026-09-24 09:45:16 +0300",
       "golden_carrot": "2026-09-24 12:56:37 +0300",
@@ -3295,6 +3296,36 @@
   "minecraft:recipes/decorations/red_bed": {
     "criteria": {
       "has_red_wool": "2026-09-25 16:08:40 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2026-09-29 16:34:45 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2026-09-29 16:52:33 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2026-09-29 17:06:00 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2026-09-29 18:19:57 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2026-09-30 12:39:41 +0300"
     },
     "done": true
   },
