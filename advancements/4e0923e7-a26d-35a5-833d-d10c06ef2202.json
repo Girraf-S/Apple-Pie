@@ -7,8 +7,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:deep_ocean": "2026-10-02 12:59:06 +0300",
       "minecraft:sunflower_plains": "2026-09-16 16:02:34 +0300",
       "minecraft:beach": "2026-09-16 15:37:22 +0300",
+      "minecraft:dark_forest": "2026-10-02 13:11:30 +0300",
       "minecraft:river": "2026-09-16 15:40:06 +0300",
       "minecraft:lukewarm_ocean": "2026-09-24 12:48:51 +0300",
       "minecraft:dripstone_caves": "2026-09-25 09:42:24 +0300",
@@ -16,6 +18,7 @@
       "minecraft:ocean": "2026-09-16 15:41:29 +0300",
       "minecraft:windswept_savanna": "2026-09-25 09:32:58 +0300",
       "minecraft:flower_forest": "2026-09-16 15:36:59 +0300",
+      "minecraft:old_growth_birch_forest": "2026-10-02 13:08:18 +0300",
       "minecraft:savanna": "2026-09-16 17:06:37 +0300",
       "minecraft:plains": "2026-09-25 10:35:32 +0300"
     },
@@ -3326,6 +3329,54 @@
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_bowl": "2026-09-30 12:39:41 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smoking": {
+    "criteria": {
+      "has_kelp": "2026-10-02 13:04:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
+    "criteria": {
+      "has_kelp": "2026-10-02 13:04:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2026-10-02 13:04:18 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2026-10-02 12:24:48 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2026-10-02 12:24:48 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2026-10-02 12:33:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2026-10-02 12:33:51 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2026-10-02 12:33:51 +0300"
     },
     "done": true
   },
