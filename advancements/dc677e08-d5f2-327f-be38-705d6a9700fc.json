@@ -131,7 +131,9 @@
       "porkchop": "2026-09-17 08:56:55 +0300",
       "mutton": "2026-09-17 08:57:38 +0300",
       "bread": "2026-09-30 16:18:42 +0300",
-      "rotten_flesh": "2026-09-17 18:58:37 +0300"
+      "rotten_flesh": "2026-09-17 18:58:37 +0300",
+      "cod": "2026-10-01 17:52:50 +0300",
+      "cooked_salmon": "2026-10-01 17:34:11 +0300"
     },
     "done": false
   },
@@ -1559,6 +1561,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2026-10-01 17:56:13 +0300",
       "minecraft:spider": "2026-09-30 16:13:49 +0300",
       "minecraft:zombified_piglin": "2026-09-24 10:23:44 +0300",
       "minecraft:zombie": "2026-09-17 18:56:37 +0300",
@@ -2735,6 +2738,96 @@
       "minecraft:nether_wastes": "2026-09-30 16:02:08 +0300"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2026-10-01 17:36:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2026-10-01 17:22:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2026-10-01 17:32:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-10-01 17:36:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2026-10-01 17:36:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2026-10-01 17:36:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2026-10-01 18:01:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2026-10-01 18:01:31 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-10-01 17:36:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2026-10-01 17:22:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-10-01 17:36:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2026-10-01 17:36:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2026-10-01 17:36:16 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2026-10-01 17:22:34 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2026-10-01 17:36:16 +0300"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
